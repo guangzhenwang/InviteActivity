@@ -1,0 +1,88 @@
+.container {
+    height: 100%;
+    overflow: hidden;
+  }
+  .record_container {
+    min-height: 100vh;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #ff3e58;
+  }
+  .record_bg {
+    width: 407px;
+    margin: 0 auto;
+  }
+  .record_list {
+    width: 700px;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: #fff;
+    .tab_content {
+      width: 652px;
+      padding-bottom: 28px;
+      margin: 0 auto;
+      text-align: center;
+      .conpon_list {
+        text-align: left;
+        padding-top: 5px;
+        width: 652px;
+      }
+  
+      .more_btn {
+        display: inline-block;
+        margin: 28px auto 0;
+        font-family: PingFang-SC-Bold;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: #ff3b6a;
+        &::after {
+          display: inline-block;
+          margin-left: 12px;
+          content: "";
+          width: 0px;
+          height: 0px;
+          border: 8px solid transparent;
+          border-top-color: #ff3f25;
+          // background-color: pink;
+        }
+      }
+    }
+    ::v-deep .van-tabs__wrap {
+      height: 70px;
+      .van-tabs__nav--card {
+        height: 70px;
+        border: 0;
+        border: 0;
+        border-radius: 35px;
+        overflow: hidden;
+        border-left-width: 0;
+      }
+      .van-tab {
+        border: solid 2px #ff3b6a;
+        border-left-width: 0;
+        box-sizing: border-box;
+        &:first-child {
+          border-left-width: 2px;
+          border-radius: 35px 0 0 35px;
+        }
+        &:last-child {
+          border-radius: 0 35px 35px 0;
+        }
+      }
+    }
+  
+    .tab_container {
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 26px;
+      .tab_icon {
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 62px;
+      }
+    }
+  }

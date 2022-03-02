@@ -1,0 +1,74 @@
+.coupon_item {
+    position: relative;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 110px;
+    padding-right: 23px;
+    width: 652px;
+    height: 140px;
+    background-color: #fff8f8;
+    box-shadow: 0px 2px 8px 0px rgba(233, 233, 233, 0.33);
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(90deg, #feeada 0%, #ffebda 100%);
+    border-image-slice: 1;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .coupon_index {
+    position: absolute;
+    top: 44px;
+    left: 38px;
+  }
+  .index_img {
+    width: 57px;
+    height: 61px;
+  }
+  .index_count {
+    font-family: PingFang-SC-Heavy;
+    font-size: 24px;
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    width: 45px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  .coupon_tel {
+    font-family: PingFang-SC-Bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #333333;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .coupon_icon {
+      width: 72px;
+      margin-left: 15px;
+    }
+  }
+  .coupon_time {
+    font-family: PingFang-SC-Medium;
+    font-size: 25px;
+    color: #999999;
+  }
+  .coupon_btn {
+    width: 148px;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 28px;
+    text-align: center;
+    color: #fff;
+    background-color: #b5b5b5;
+  }
+  .fail_container {
+    text-align: center;
+    font-family: PingFang-SC-Medium;
+    font-size: 25px;
+    color: #ff3b6a;
+  }

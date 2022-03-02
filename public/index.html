@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>邀请赚话费</title>
+  <meta charset="utf-8">
+  <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="pragma">
+  <meta content="0" http-equiv="expires">
+  <meta content="telephone=no, address=no" name="format-detection">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <script>
+    var sdHostName = window.location.hostname === "m.sd.10086.cn" ? "../" : "https://m.sd.10086.cn/fe_service/",
+      curdata = new Date(),
+      sdNowTime = curdata.getFullYear() + "" + (curdata.getMonth() + 1) + curdata.getDate();
+    document.write('<script src="' + sdHostName + 'common/vjs/flex.js?v=1.0"><\/script>');
+    document.write('<link rel="stylesheet" href="' + sdHostName + 'common/css/public.css?v=1.0">');
+  </script>
+
+</head>
+
+<body>
+  <div id="root">
+    <!-- on show -->
+  </div>
+  <script>
+    document.write('<script src="' + sdHostName + 'common/vjs/jquery.3.2.1.min.js?v=1.0"><\/script>');
+    document.write('<script src="' + sdHostName + 'common/vjs/appBase.js?v=' + sdNowTime + '"><\/script>');
+    document.write('<script src="' + sdHostName + 'common/vue/axios.min.js?v=' + sdNowTime + '"><\/script>');
+    document.write('<script src="' + sdHostName + 'common/vjs/sd_sdc_load.js?v=' + sdNowTime + '"><\/script>');
+    document.write('<script src="' + sdHostName + 'common/vjs/common.js?v=' + sdNowTime + '"><\/script>');
+    document.write('<script src="' + sdHostName + 'common/vjs/plugTool.js?v=' + sdNowTime + '"><\/script>');
+    document.write('<script src="' + sdHostName + 'common/vjs/http.js?v=' + sdNowTime + '"><\/script>');
+    document.write('<script src="' + sdHostName + 'common/vjs/analytics.min.js?v=' + sdNowTime + '"><\/script>');
+    document.write('<script src="' + sdHostName + 'common/vjs/xwdownbar.js?v=' + sdNowTime + '"><\/script>');
+    if (navigator.userAgent.indexOf("MicroMessenger") > -1) {
+      document.write('<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"><\/script>');
+    }
+  </script>
+</body>
+
+</html>

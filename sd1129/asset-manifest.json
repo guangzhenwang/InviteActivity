@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "./static/css/main.fe3bb5fb.css",
+    "main.js": "./static/js/main.45993666.js",
+    "static/css/304.b00a8533.chunk.css": "./static/css/304.b00a8533.chunk.css",
+    "static/js/304.42dc7127.chunk.js": "./static/js/304.42dc7127.chunk.js",
+    "static/css/2.e8ce061d.chunk.css": "./static/css/2.e8ce061d.chunk.css",
+    "static/js/2.608cf1c8.chunk.js": "./static/js/2.608cf1c8.chunk.js",
+    "static/css/640.7bb58b13.chunk.css": "./static/css/640.7bb58b13.chunk.css",
+    "static/js/640.c2cb4fc0.chunk.js": "./static/js/640.c2cb4fc0.chunk.js",
+    "static/js/787.c7a61f31.chunk.js": "./static/js/787.c7a61f31.chunk.js",
+    "base.js": "./static/js/base.ba211eba.js",
+    "static/js/700.c8c175b1.chunk.js": "./static/js/700.c8c175b1.chunk.js",
+    "static/js/562.38387538.chunk.js": "./static/js/562.38387538.chunk.js",
+    "static/media/bigBee.png": "./static/media/bigBee.16aaf6c2f3140ec0621a.png",
+    "static/media/invite_btn.png": "./static/media/invite_btn.33762da276a8ce826a83.png",
+    "static/media/titleBg.png": "./static/media/titleBg.27608625fe30d0afc27f.png",
+    "static/media/inviteBTN.png": "./static/media/inviteBTN.a8221a17afb6377e350f.png",
+    "static/media/floorHead1.png": "./static/media/floorHead1.a70673f7d5c3c66bf3f8.png",
+    "static/media/meToo.png": "./static/media/meToo.457ccd8f6b5389afe88e.png",
+    "static/media/titleBg1.png": "./static/media/titleBg1.e5edb91465dec5299e59.png",
+    "static/media/happyGet.png": "./static/media/happyGet.eef8125f7ba132a6b184.png",
+    "static/media/empty.svg": "./static/media/empty.f2b844b21ec850bdec1912ad99067e9f.svg",
+    "static/media/floorHead.png": "./static/media/floorHead.31b202cc7c6105b5868c.png",
+    "static/media/inviteBg.png": "./static/media/inviteBg.76ea0680812dbc82131e.png",
+    "static/media/default.svg": "./static/media/default.1f281972c41211594f594eb8431617c7.svg",
+    "static/media/searchBTN.png": "./static/media/searchBTN.a4bc9b6e1778d3b8db85.png",
+    "static/media/busy.svg": "./static/media/busy.c4668539d4172c45989782acfa8f0d95.svg",
+    "static/media/disconnected.svg": "./static/media/disconnected.9c7ea75e5abe3883ac5dfaf2cce1ae80.svg",
+    "index.html": "./index.html",
+    "static/media/spin.svg": "./static/media/spin.a71ffb170f2356071b67492c9ea611fe.svg",
+    "static/media/empty-icon.svg": "./static/media/empty-icon.0e5fd2879f6036c6db04b701757e1f6c.svg"
+  },
+  "entrypoints": [
+    "static/js/base.ba211eba.js",
+    "static/css/main.fe3bb5fb.css",
+    "static/js/main.45993666.js"
+  ]
+}
