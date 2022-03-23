@@ -6,6 +6,7 @@ import {HashRouter,Switch,Route} from 'react-router-dom'
 const Home = lazy(()=>import('@/views/home'))
 const Record = lazy(()=>import('@/views/record'))
 const Check = lazy(()=>import('@/views/check'))
+const Test = lazy(()=>import('@/views/test'))
 export default function Router () {
     return <HashRouter>
         <Suspense fallback={<Loading text="加载中..."></Loading>}>
@@ -13,6 +14,7 @@ export default function Router () {
             <Route path="/" exact component={Home}></Route>
             <Route path="/record"  component={Record}></Route>
             <Route path="/check"  component={Check}></Route>
+            <Route path="/test"  component={Test}></Route>
             <Route path="*" component={Home}></Route>
         </Switch>
         </Suspense>
